@@ -1,0 +1,78 @@
+/* styles.css
+
+/* Set window background color */
+.root {
+    -fx-background-color: #1520A6; /* Light gray background */
+}
+
+.list-cell:odd {
+    -fx-background-color: #63C5DA; /* Alternate color 1 */
+}
+
+.list-cell:even {
+    -fx-background-color: #82EEFD; /* Alternate color 2 */
+}
+
+/* Style HBox
+.hbox {
+    -fx-spacing: 10px; /* Spacing between elements in HBox */
+}
+*/
+/* Style buttons */
+.button {
+    -fx-background-color: #3498db; /* Blue color for buttons */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-size: 14pt;
+    -fx-padding: 10px 15px; /* Padding around button text */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    -fx-background-color: #2980b9; /* Darker blue color on hover */
+}
+
+/* Style ListView */
+.list-view {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-padding: 10px; /* Padding around ListView */
+}
+
+/* Style ListCell */
+.list-cell {
+    -fx-padding: 10px; /* Padding around ListCell items */
+    -fx-background-color: #ecf0f1; /* Light gray background for ListCell */
+    -fx-border-color: #2980B6; /* Border color */
+    -fx-border-width: 0 0 1 0; /* Bottom border only */
+}
+
+/* Style labels */
+.label {
+    -fx-font-size: 14pt;
+    -fx-text-fill: #333333; /* Dark text color */
+}
+
+
+/* styles.css */
+
+.add-button {
+    -fx-background-color: #3498db; /* Blue color for the button */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-size: 14pt;
+  /*  -fx-padding: 10px 20px;  Padding around button text */
+    -fx-min-width: 40px; /* Minimum width for the button */
+    -fx-min-height: 40px; /* Minimum height for the button */
+    -fx-border-radius: 50%; /* Round the corners */
+    -fx-background-radius: 40; /* Round the corners */
+    -fx-border-color: transparent; /* Hide button border */
+}
+
+/* Position the button at the right bottom corner */
+.vbox {
+    -fx-spacing: 10px; /* Spacing between elements in VBox */
+    -fx-alignment: bottom-right; /* Align elements to the bottom-right */
+     /*-fx-padding: 20px; Padding around VBox */
+}
+
+.checkbox:checked {
+ -fx-text-fill: #ffffff;
+}

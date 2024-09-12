@@ -1,0 +1,14 @@
+/* styles.css */
+
+.delete-button {
+    -fx-graphic: url("/com/example/todoappfx/trash-can-icon.png");
+    -fx-background-color: transparent;
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-padding: 5 5 5 5;
+}
+
+.delete-button:hover {
+    -fx-background-color: #f2f2f2; /* Change color on hover if desired */
+}
